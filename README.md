@@ -1,4 +1,6 @@
 # PLURON LIBRARY
 
 ## Opening up the library
-<p>jafh<p>
+```
+<p>loadstring(game:HttpGet(("faha"), true))()
+```
