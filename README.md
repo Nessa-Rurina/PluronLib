@@ -66,11 +66,3 @@ tab2:NewButton("Set humanoid health to 0 (death)", function()
     print("You died!")
 end)
 ```
-
-## Last few notes
-
-Anyways, thank you for using my Ui Library. I will be consistantly making more and each of them will be way better then the other.
-Currently this Ui Library only has a Button, I will be updating it so it has more (Sliders, Colour Pickers, etc.)
-This Ui Library is open source so feel free to go around checking it, and remember no skidding!!!!
-
-Have a nice day.
