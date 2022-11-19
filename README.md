@@ -1,5 +1,10 @@
 # PLURON LIBRARY
+Welcome to Pluron Library!
+This library is a project that was developed by Tenshin.
 
+It is in VERY early stages, it does not have auto scaling, themes, and even components (Sliders, Colour Pickers.)
+
+This is just a test for when the UI is finished, but if you want to test it by yourself you can by doing the steps down below.
 ## Opening up the library
 ```
 local KeySystem = {
