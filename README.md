@@ -9,17 +9,9 @@ This is just a test for when the UI is finished, but if you want to test it by y
 This Ui Library is Open Source, so feel free to go around looking through the code.
 ## Opening up the library
 ```
-local KeySystem = {
-    Enabled = false, -- set this to true if u want a key system!
-    DiscordInvite = "Abcdefghijklmnop", -- put in the letters and numbers of the invite, NOT the discord.gg!
-    Note = "Join discord for key", -- put in any note inside here
-    Key = "Pluron" -- Change this to any key you want.
-}
-
 local library = loadstring(game:HttpGet(("https://raw.githubusercontent.com/Nessa-Rurina/PluronLib/main/Library.lua"), true))()
 ```
 The above is NEEDED for loading the library.
-Read the comments if you are confused in any way.
 
 ## Creating a window
 ```
@@ -43,13 +35,6 @@ Name the "Any Text" to anything you like. Replace print("Hello World!") with you
 
 ## Simple Example
 ```
-local KeySystem = {
-    Enabled = false, -- set this to true if u want a key system!
-    DiscordInvite = "Abcdefghijklmnop", -- put in the letters and numbers of the invite, NOT the discord.gg!
-    Note = "Join discord for key", -- put in any note inside here
-    Key = "Pluron" -- Change this to any key you want.
-}
-
 local library = loadstring(game:HttpGet(("faha"), true))()
 local Window = library:CreateWindow("My ScriptHub!")
 local tab1 = Window:CreateTab("Player Stuff")
