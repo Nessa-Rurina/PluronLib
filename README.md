@@ -35,21 +35,18 @@ Name the "Any Text" to anything you like. Replace print("Hello World!") with you
 
 ## Simple Example
 ```
-local library = loadstring(game:HttpGet(("faha"), true))()
-local Window = library:CreateWindow("My ScriptHub!")
-local tab1 = Window:CreateTab("Player Stuff")
-local tab2 = Window:CreateTab("Fun Stuff")
---
-tab1:NewButton("Set WalkSpeed to 100", function()
-    game.Players.LocalPlayer.Character:FindFirstChild("Humanoid").WalkSpeed = 100
-end)
+local Library = loadstring(game:HttpGet(("https://raw.githubusercontent.com/Nessa-Rurina/PluronLib/main/Library.lua"), true))()
+local Window = Library:CreateWindow("Smexy Lexy")
+local Tab1 = Window:CreateTab("Smexy Tab")
 
-tab1:NewButton("Set WalkSpeed to 16", function()
-    game.Players.LocalPlayer.Character:FindFirstChild("Humanoid").WalkSpeed = 16
+Tab1:CreateLabel("Click below for a suprise!!")
+Tab1:CreateButton("Do what above says!!!!!", function()
+	game:GetService("Players").LocalPlayer.Character:WaitForChild("Humanoid").Health = 0
 end)
---
-tab2:NewButton("Set humanoid health to 0 (death)", function() 
-    game.Players.LocalPlayer.Character:FindFirstChild("Humanoid").Health = 0
-    print("You died!")
+local Tab2 = Window:CreateTab("Sowwy???")
+
+Tab2:CreateLabel("Im sowwy for killing u uwu")
+Tab2:CreateButton("Fuck u", function()
+	game:GetService("CoreGui")[ "Pluron, ID: ".."Smexy Lexy"]:Destroy()
 end)
 ```
