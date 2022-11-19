@@ -16,7 +16,7 @@ local KeySystem = {
     Key = "Pluron" -- Change this to any key you want.
 }
 
-local library = loadstring(game:HttpGet(("faha"), true))()
+local library = loadstring(game:HttpGet(("https://raw.githubusercontent.com/Nessa-Rurina/PluronLib/main/Library.lua"), true))()
 ```
 The above is NEEDED for loading the library.
 Read the comments if you are confused in any way.
