@@ -9,7 +9,7 @@ This is just a test for when the UI is finished, but if you want to test it by y
 This Ui Library is Open Source, so feel free to go around looking through the code.
 ## Opening up the library
 ```
-local library = loadstring(game:HttpGet(("https://raw.githubusercontent.com/Nessa-Rurina/PluronLib/main/Library.lua"), true))()
+local Library = loadstring(game:HttpGet(("https://raw.githubusercontent.com/Nessa-Rurina/PluronLib/main/Library.lua"), true))()
 ```
 The above is NEEDED for loading the library.
 
