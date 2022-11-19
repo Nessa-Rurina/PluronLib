@@ -314,3 +314,4 @@ dragify(DragPart)
 	end
 	return TabCreation;
 end
+return Library
