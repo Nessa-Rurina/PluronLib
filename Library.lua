@@ -517,3 +517,4 @@ function lib:CreateWindow(name)
 	end
 	return libTabs;
 end
+return lib;
